@@ -1,13 +1,37 @@
-.primary-heading {
-  color: blue;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+html,
+body {
+  /*opacity: 80%;*/
+  font-family: 'Noto Sans JP', sans-serif;
+  line-height: 1.5em;
 }
 
-#welcome {
-  background-color: azure;
+#welcome p span {
+  font-weight: 600;
 }
 
-#welcome, #about {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin: 5px;
+#about p span {
+  font-weight: 600;
+  color: brown;
+}
+
+#box-1 {
+  background-color: blanchedalmond;
+  border: 3px solid red;
+  border-radius: 10px
+}
+
+#box-2 {
+  background-color: #333;
+  color: antiquewhite;
+  border: 3px solid blue;
+
+}
+
+#box-3 {
+  background: url("../assets/images/photo-1619010990628-280b158f41f3.webp") no-repeat center center/cover;
+  height: 300px;
+  width: 600px;
+  text-align: center;
 }
