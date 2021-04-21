@@ -1,0 +1,13 @@
+.primary-heading {
+  color: blue;
+}
+
+#welcome {
+  background-color: azure;
+}
+
+#welcome, #about {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+}
