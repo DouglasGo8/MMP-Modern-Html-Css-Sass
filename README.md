@@ -3,3 +3,10 @@
 ---
 
 [Unsplash](https://unsplash.com)
+
+## Notes about Divs
+
+* Orange Margins
+* Greenis Padding
+
+![Dimensions](./assets/images/dimensions.png)
