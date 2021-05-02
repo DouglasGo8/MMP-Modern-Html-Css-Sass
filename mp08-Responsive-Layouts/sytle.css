@@ -1,20 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap");
 
 body {
-  /*opacity: 80%;*/
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   line-height: 1.5em;
-  background: gray;
-  color: white;
+  background: #fff;
+  color: #000;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 10px;
 }
 
-h1 {
-  display: none;
+#box-1 {
+  font-size: 20px;
+}
+#box-1 p {
+  padding: 3px;
 }
 
-/* Smartphones */
+/* Smartphones 
 @media only screen and (max-width: 500px) {
   body {
     background: red;
@@ -23,9 +25,9 @@ h1 {
   #smart h1 {
     display: block;
   }
-}
+}*/
 
-/* Tablets */
+/* Tablets 
 @media (min-width: 501px) and (max-width: 768px) {
   body {
     background: blue;
@@ -34,9 +36,9 @@ h1 {
   #tablet h1 {
     display: block;
   }
-}
+}*/
 
-/* Normal */
+/* Normal 
 @media (min-width: 769px) and (max-width: 1200px) {
   body {
     background: green;
@@ -45,9 +47,9 @@ h1 {
   #normal h1 {
     display: block;
   }
-}
+}*/
 
-/* Widescreen */
+/* Widescreen
 @media (min-width: 1201px) {
   body {
     background: black;
@@ -56,4 +58,16 @@ h1 {
   #widescreen h1 {
     display: block;
   }
+} */
+
+/* Landscape
+@media (max-height: 500px) {
+  body {
+    background: orange;
+  }
+
+  #landscape h1 {
+    display: block;
+  }
 }
+ */
